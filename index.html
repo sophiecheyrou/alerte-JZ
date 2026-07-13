@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#101827" />
+  <title>Suivi sécurité – Internat Jean Zay</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="homeBtn" class="brand" aria-label="Retour à l’accueil">
+      <strong>Internat Jean Zay</strong>
+      <span>Suivi de l’exercice de sécurité</span>
+    </button>
+    <div class="top-actions">
+      <span id="syncState" class="sync-state">Mode démonstration</span>
+      <button id="newExerciseBtn" class="reset-button">Nouvel exercice</button>
+      <button id="installBtn" class="install-button" hidden>Installer</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="view active">
+      <div class="hero">
+        <p class="eyebrow">EXERCICE DE SÉCURITÉ</p>
+        <h1>Choisir un poste</h1>
+        <p>Un appui sur une chambre suffit pour enregistrer sa situation.</p>
+      </div>
+
+      <div class="home-grid">
+        <button class="role-card pair-card" data-role="PAIR">
+          <span class="role-icon">P</span>
+          <span class="role-copy"><b>COUR MONTMORENCY</b><small>Chambres paires</small></span>
+        </button>
+        <button class="role-card impair-card" data-role="IMPAIR">
+          <span class="role-icon">I</span>
+          <span class="role-copy"><b>COUR D’HONNEUR</b><small>Chambres impaires</small></span>
+        </button>
+        <button class="role-card loge-card" data-role="LOGE">
+          <span class="role-icon">L</span>
+          <span class="role-copy"><b>LOGE</b><small>Élèves sortis</small></span>
+        </button>
+        <button class="role-card dashboard-card" data-role="DIRECTION">
+          <span class="role-icon">D</span>
+          <span class="role-copy"><b>TABLEAU DE BORD</b><small>Suivi en direct</small></span>
+        </button>
+      </div>
+
+      <div id="homeSummary" class="home-summary"></div>
+    </section>
+
+    <section id="app" class="view">
+      <div class="screen-header">
+        <button id="backBtn" class="back-button">← Accueil</button>
+        <div>
+          <p id="roleSubtitle" class="eyebrow"></p>
+          <h1 id="roleTitle"></h1>
+        </div>
+      </div>
+
+      <div id="dashboardHero" class="dashboard-hero" hidden></div>
+      <div id="kpis" class="kpis"></div>
+      <div id="filters" class="filters"></div>
+      <div id="floorTabs" class="floor-tabs"></div>
+      <div id="missingGroups" class="missing-groups" hidden></div>
+      <div id="rooms" class="rooms-grid"></div>
+    </section>
+  </main>
+
+  <div id="confirmDialog" class="dialog-backdrop" hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle">
+      <div class="dialog-icon">!</div>
+      <h2 id="dialogTitle">Démarrer un nouvel exercice ?</h2>
+      <p>Toutes les chambres repasseront en rouge « Non localisé ». Cette action remet également les compteurs à zéro.</p>
+      <div class="dialog-actions">
+        <button id="cancelResetBtn" class="secondary-button">Annuler</button>
+        <button id="confirmResetBtn" class="danger-button">Remettre à zéro</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="rooms-data.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
