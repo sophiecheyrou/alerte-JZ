@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#101827" />
   <title>Suivi sécurité – Internat Jean Zay</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=9" />
 </head>
 <body>
   <header class="topbar">
@@ -15,7 +15,8 @@
       <span>Suivi de l’exercice de sécurité</span>
     </button>
     <div class="top-actions">
-      <span id="syncState" class="sync-state">Mode démonstration</span>
+      <span id="syncState" class="sync-state"></span>
+      <button id="archiveBtn" class="archive-button">Archives</button>
       <button id="newExerciseBtn" class="reset-button">Nouvel exercice</button>
       <button id="installBtn" class="install-button" hidden>Installer</button>
     </div>
@@ -23,10 +24,9 @@
 
   <main>
     <section id="home" class="view active">
-      <div class="hero">
+      <div class="hero compact-hero">
         <p class="eyebrow">EXERCICE DE SÉCURITÉ</p>
         <h1>Choisir un poste</h1>
-        <p>Un appui sur une chambre suffit pour enregistrer sa situation.</p>
       </div>
 
       <div class="home-grid">
@@ -52,20 +52,45 @@
     </section>
 
     <section id="app" class="view">
-      <div class="screen-header">
+      <div class="screen-header compact-header">
         <button id="backBtn" class="back-button">← Accueil</button>
-        <div>
+        <div class="screen-title">
           <p id="roleSubtitle" class="eyebrow"></p>
           <h1 id="roleTitle"></h1>
         </div>
       </div>
 
-      <div id="dashboardHero" class="dashboard-hero" hidden></div>
       <div id="kpis" class="kpis"></div>
-      <div id="filters" class="filters"></div>
-      <div id="floorTabs" class="floor-tabs"></div>
+
+      <div id="searchWrap" class="search-wrap">
+        <label for="roomSearch" class="sr-only">Rechercher une chambre</label>
+        <input id="roomSearch" type="search" inputmode="text" autocomplete="off" placeholder="Rechercher une chambre…" />
+        <button id="clearSearchBtn" class="clear-search" aria-label="Effacer la recherche" hidden>×</button>
+      </div>
+      <div id="searchResult" class="search-result" hidden></div>
+
+      <div id="operationalGroups" class="floor-groups"></div>
+
       <div id="missingGroups" class="missing-groups" hidden></div>
-      <div id="rooms" class="rooms-grid"></div>
+      <div id="dashboardActions" class="dashboard-actions" hidden>
+        <button id="saveExerciseBtn" class="primary-action">Sauvegarder l’exercice</button>
+        <button id="emailReportBtn" class="secondary-action">Envoyer le compte-rendu par mail</button>
+      </div>
+    </section>
+
+    <section id="archives" class="view">
+      <div class="screen-header compact-header">
+        <button id="archivesBackBtn" class="back-button">← Accueil</button>
+        <div class="screen-title">
+          <p class="eyebrow">HISTORIQUE</p>
+          <h1>Archives des exercices</h1>
+        </div>
+      </div>
+      <div id="archivesTools" class="archives-tools" hidden>
+        <label class="select-all-archives"><input id="selectAllArchives" type="checkbox"> <span>Tout sélectionner</span></label>
+        <button id="deleteSelectedArchivesBtn" class="delete-selected-archives" disabled>Supprimer la sélection</button>
+      </div>
+      <div id="archivesList" class="archives-list"></div>
     </section>
   </main>
 
@@ -73,9 +98,10 @@
     <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle">
       <div class="dialog-icon">!</div>
       <h2 id="dialogTitle">Démarrer un nouvel exercice ?</h2>
-      <p>Toutes les chambres repasseront en rouge « Non localisé ». Cette action remet également les compteurs à zéro.</p>
-      <div class="dialog-actions">
+      <p>L’exercice en cours peut être sauvegardé avant remise à zéro. Toutes les chambres repasseront ensuite en rouge « Non localisé ».</p>
+      <div class="dialog-actions three-actions">
         <button id="cancelResetBtn" class="secondary-button">Annuler</button>
+        <button id="saveThenResetBtn" class="primary-button">Sauvegarder puis recommencer</button>
         <button id="confirmResetBtn" class="danger-button">Remettre à zéro</button>
       </div>
     </div>
@@ -84,8 +110,8 @@
   <div id="toast" class="toast" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="rooms-data.js"></script>
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+  <script src="rooms-data.js?v=9"></script>
+  <script src="config.js?v=9"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>

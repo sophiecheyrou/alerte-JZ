@@ -364,6 +364,83 @@
     "needs_review": false
   },
   {
+    "room": "R10A",
+    "floor": 1,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R10B",
+    "floor": 1,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R11A",
+    "floor": 1,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "R11B",
+    "floor": 1,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "R12A",
+    "floor": 1,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R12B",
+    "floor": 1,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R15",
+    "floor": 1,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "S.10",
+    "floor": 1,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.11",
+    "floor": 1,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "S.12",
+    "floor": 1,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.13",
+    "floor": 1,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
     "room": "201",
     "floor": 2,
     "side": "IMPAIR",
@@ -966,11 +1043,142 @@
     "needs_review": false
   },
   {
+    "room": "C.20",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "C.21",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "C.22",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.20",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.21",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.22",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.23",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.24",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.25",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "R20A",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R20B",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R21B",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "R22.B",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "R22A",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.20",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.21",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "S.22",
+    "floor": 2,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.23",
+    "floor": 2,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
     "room": "302",
     "floor": 3,
     "side": "PAIR",
     "courtyard": "COUR MONTMORENCY",
     "needs_review": false
+  },
+  {
+    "room": "303",
+    "floor": 3,
+    "side": "IMPAIR"
   },
   {
     "room": "304",
@@ -1555,6 +1763,83 @@
   },
   {
     "room": "391",
+    "floor": 3,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.30",
+    "floor": 3,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.31",
+    "floor": 3,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.32",
+    "floor": 3,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.33",
+    "floor": 3,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.34",
+    "floor": 3,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.35",
+    "floor": 3,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "R30.A",
+    "floor": 3,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.30",
+    "floor": 3,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.31",
+    "floor": 3,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "S.32",
+    "floor": 3,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.33",
     "floor": 3,
     "side": "IMPAIR",
     "courtyard": "COUR D'HONNEUR",
@@ -2170,6 +2455,69 @@
     "needs_review": false
   },
   {
+    "room": "F.40",
+    "floor": 4,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.41",
+    "floor": 4,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.42",
+    "floor": 4,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "F.43",
+    "floor": 4,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "F.45",
+    "floor": 4,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "S.40",
+    "floor": 4,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.41",
+    "floor": 4,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
+    "room": "S.42",
+    "floor": 4,
+    "side": "PAIR",
+    "courtyard": "COUR MONTMORENCY",
+    "needs_review": false
+  },
+  {
+    "room": "S.43",
+    "floor": 4,
+    "side": "IMPAIR",
+    "courtyard": "COUR D'HONNEUR",
+    "needs_review": false
+  },
+  {
     "room": "503",
     "floor": 5,
     "side": "IMPAIR",
@@ -2779,146 +3127,6 @@
     "needs_review": false
   },
   {
-    "room": "C.20",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "C.21",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "C.22",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.21",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.20",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.22",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.23",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.24",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.25",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.30",
-    "floor": 3,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.31",
-    "floor": 3,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.32",
-    "floor": 3,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.33",
-    "floor": 3,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.34",
-    "floor": 3,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.35",
-    "floor": 3,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.40",
-    "floor": 4,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.41",
-    "floor": 4,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.42",
-    "floor": 4,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "F.43",
-    "floor": 4,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "F.45",
-    "floor": 4,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
     "room": "F.51",
     "floor": 5,
     "side": "IMPAIR",
@@ -2954,98 +3162,42 @@
     "needs_review": false
   },
   {
-    "room": "R15",
-    "floor": 1,
+    "room": "S.51",
+    "floor": 5,
     "side": "IMPAIR",
     "courtyard": "COUR D'HONNEUR",
     "needs_review": false
   },
   {
-    "room": "R20B",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R10A",
-    "floor": 1,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R10B",
-    "floor": 1,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R11A",
-    "floor": 1,
+    "room": "S.53",
+    "floor": 5,
     "side": "IMPAIR",
     "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "R11B",
-    "floor": 1,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "R12A",
-    "floor": 1,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R12B",
-    "floor": 1,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R20A",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R21B",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "R22A",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R22.B",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "R30.A",
-    "floor": 3,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
     "needs_review": false
   },
   {
     "room": "RC1",
+    "floor": null,
+    "side": null,
+    "courtyard": null,
+    "needs_review": true
+  },
+  {
+    "room": "RC2A",
+    "floor": null,
+    "side": null,
+    "courtyard": null,
+    "needs_review": true
+  },
+  {
+    "room": "RC2B",
+    "floor": null,
+    "side": null,
+    "courtyard": null,
+    "needs_review": true
+  },
+  {
+    "room": "RC3A",
     "floor": null,
     "side": null,
     "courtyard": null,
@@ -3078,152 +3230,5 @@
     "side": null,
     "courtyard": null,
     "needs_review": true
-  },
-  {
-    "room": "RC2A",
-    "floor": null,
-    "side": null,
-    "courtyard": null,
-    "needs_review": true
-  },
-  {
-    "room": "RC2B",
-    "floor": null,
-    "side": null,
-    "courtyard": null,
-    "needs_review": true
-  },
-  {
-    "room": "RC3A",
-    "floor": null,
-    "side": null,
-    "courtyard": null,
-    "needs_review": true
-  },
-  {
-    "room": "S.10",
-    "floor": 1,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.21",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.22",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.41",
-    "floor": 4,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.43",
-    "floor": 4,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.53",
-    "floor": 5,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.11",
-    "floor": 1,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.12",
-    "floor": 1,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.13",
-    "floor": 1,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.20",
-    "floor": 2,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.23",
-    "floor": 2,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.30",
-    "floor": 3,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.31",
-    "floor": 3,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.32",
-    "floor": 3,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.33",
-    "floor": 3,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
-  },
-  {
-    "room": "S.40",
-    "floor": 4,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.42",
-    "floor": 4,
-    "side": "PAIR",
-    "courtyard": "COUR MONTMORENCY",
-    "needs_review": false
-  },
-  {
-    "room": "S.51",
-    "floor": 5,
-    "side": "IMPAIR",
-    "courtyard": "COUR D'HONNEUR",
-    "needs_review": false
   }
 ]
